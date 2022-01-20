@@ -1,71 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    color: black;
+body {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  background-image: linear-gradient(to left bottom,
+      #d16ba5, #ad5c9b, #884d8e, #64407f, #40336d, #333f78, #224a81, #005488,
+      #007cad, #00a6cb, #04d0e1, #5ffbf1);
 }
+
 /* HEADER START */
 
-#header-nav{
+#header-nav {
   padding: 0;
   margin: 0;
 }
 
-.navbar-brand{
-    font-size: 1.5em;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-    color: #ffffff;
-    padding-top: 10px;
+.navbar-brand {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 10px;
 }
 
-a{
-    text-decoration: none;
-    color: #ffffff;
+a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
-a:focus, a:hover, a:visited, a:link, a:active{
-    text-decoration: none;
-    color: #ffffff;
-    text-shadow: hsl(214, 100%, 50%) 1px 0 10px;
+a:focus,
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: hsl(214, 100%, 50%) 1px 0 10px;
 }
 
-button{
-    color: #000000;
+button {
+  color: #000000;
 }
 
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
 
-#nav-list {
-    margin-top: 10px;
-  }
-  #nav-list a {
-    color: #951C49;
-    text-align: center;
-  }
-  #nav-list a:hover {
-    background: #E7E7E7;
-  }
-  #nav-list a span {
-    font-size: 1.8em;
-  }
-    
-  .navbar-header button.navbar-toggle {
-    clear: both;
-    margin-top: -30px;
-  }
-  
+.nav-item {
+  text-align: center;
+}
+
 /* HEADER END */
 
 /* BODY START */
 
-h3{
+h2 {
   padding: 10px;
 }
+
+#main-text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-background {
+  height: 2700px;
+  padding: 20px 40px 20px 40px;
+  background-color: #00000073;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+
+/* BODY END */
